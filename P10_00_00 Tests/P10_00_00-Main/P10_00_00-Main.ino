@@ -6,18 +6,16 @@ long TimeStart;
 long TimeOnMs;
 long TimeOffMs;
 int address = 0; //Address for where to store PercentOn settings
-int led = 0;
+int led = 2;
 int button = 1;
-int fan = 4;
-
-//1 Hr = 3600
+int fan = 0;
 
 //Settings
 int Debounce = 200;
 byte HoldTime = 2000;
 byte PercentOn = 50;
-long StartupDelay = 5000;//600000;
-int Period = 60; //In seconds
+long StartupDelay = 600000;
+int Period = 3600; //In seconds
 
 
 // the setup function runs once when you press reset or power the board
@@ -42,7 +40,6 @@ void setup() {
   {
   //Led on to indicate that it is availible for programming
   digitalWrite(led,HIGH);
-  
   
     //Check for Menu request
     if(PressType() == 2)
