@@ -45,13 +45,15 @@ It's frustrating but I might be able to salvage this project. My feeling on this
 <font color="63C0EC">Tags:</font> ATtiny85, Arduino, Domotics, Engineering, Gardening, Home Automation, P10_00_00, Plants, Software
 <a href="https://kionokitse.wordpress.com/notmildewpls/">Project Page</a> 
 
-2020-10-21 <font color="63C0EC"><b>P10_00_00 Components Wired</b></font>
-Now that I have the transistor working and I can switch the fan on/off it's time to design the circuit and assemble it. The circuit design is pretty simple. I have a button for input, an led for status output and a GPIO pin for turning the fan on/off. Here is model of the circuit.
 
-After breadboarding the model, it looks like my pin assignments work and the components  seem to be working well with each other. Next up is soldering everything up onto perfboard and testing out the board. Typically for perfboard designs I work of the schematic and try to fit all the components into as little space as possible. For this project I'm trying to embed the circuit board into the power adapter to get a clean build. It probably won't be perfect but I think it will look nicer than having a separate project box glued to the side of the adapter. Looking around on the adapter I've found a spot that looks like it will fit all the components without interfering with the electronics already inside. The space available looks to be about 3.5cm x 2cm and 1cm deep. Given these space requirements I was able to fit all the components into a package that looks like it will fit
 
-Before I go ahead and try fitting the new circuit board into the adapter I want to just run some tests and verify that the circuit board is working well. That way if I need to make any changes I can reprogram the microcontroller or make small changes without having to dissemble the adapter again.
-<font color="63C0EC">Category:</font> Gardening
-<font color="63C0EC">Tags:</font> ATtiny85, Arduino, Domotics, Engineering, Gardening, Home Automation, P10_00_00, Plants, Software
-<a href="https://kionokitse.wordpress.com/notmildewpls/">Project Page</a> 
+
+
+
+
+
+
+
+
+
 
