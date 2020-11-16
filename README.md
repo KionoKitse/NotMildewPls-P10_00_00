@@ -38,22 +38,3 @@ Last time I posted, I mentioned that for some reason I the microprocessor would 
 <font color="63C0EC">Tags:</font> ATtiny85, Arduino, Domotics, Engineering, Gardening, Home Automation, P10_00_00, Plants, Software
 <a href="https://kionokitse.wordpress.com/notmildewpls/">Project Page</a> 
 
-2020-10-21 <font color="63C0EC"><b>P10_00_00 Transistor troubles again</b></font>
-Well so much for an easy project. Something happened and now I'm basically back again at the middle. Over the weekend I had finished prototyping and and soldering the components together on perfboard. In testing I noticed that I was getting some inconsistent results for the amount of time the fan spent on. I made some modifications to the software and began the debug procedure to determine what could be causing the issue. After two days of testing I noticed that when the fan would turn on the microcontroller would shutdown and reboot. This was very strange since the the wiring hadn't changed at all. To rule out the possibility of a short or some damaged component I removed the fan and the power cables from the circuit. Then I set up a blink sketch with a new ATtiny85 and TIP120 Darlington pair. Still the same issue... It's odd because I know it was working in this exact setup before.
-It's frustrating but I might be able to salvage this project. My feeling on this issue is that maybe it is a power issue. After all I'm trying to run a 12V fan off of 4.7V. I'm thinking to try upping the voltage and maybe check this on an oscilloscope. My preference would be to stay with the lower voltage so I don't need to step down the voltage for the microcontroller. Another possibility is that I don't have the right resistor values for the transistor. Under load the switching voltage might not be the assumed 4.7V leading to possibly not enough power to switch properly. Anyway I'll do some more tests and maybe I'll find an easy fix.
-<font color="63C0EC">Category:</font> Gardening
-<font color="63C0EC">Tags:</font> ATtiny85, Arduino, Domotics, Engineering, Gardening, Home Automation, P10_00_00, Plants, Software
-<a href="https://kionokitse.wordpress.com/notmildewpls/">Project Page</a> 
-
-
-
-
-
-
-
-
-
-
-
-
-
